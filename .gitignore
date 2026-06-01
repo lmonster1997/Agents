@@ -1,0 +1,16 @@
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+.venv/
+venv/
+.env
+
+# uv
+.uv/
+
+# VS Code 个人配置（可选保留团队需要的）
+.vscode/settings.json
+
+# OS
+Thumbs.db
