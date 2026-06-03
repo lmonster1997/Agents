@@ -1,9 +1,7 @@
-# ---- 基础 HTTP / ENV ----
-python-dotenv>=1.0,<2
+fastapi>=0.110
+uvicorn[standard]>=0.29
+python-dotenv>=1.0
 httpx>=0.27
-
-# ---- OpenAI 兼容客户端（DashScope 走 compatible-mode 时最省心）----
-openai>=1.30,<2
-
-# ---- （可选但很有用的小工具，不影响核心逻辑）----
-rich>=13.7        # 只在你想把终端输出做得更可读时用，可不装
+openai>=1.30
+pydantic>=2.0
+pydantic-settings>=2.0
